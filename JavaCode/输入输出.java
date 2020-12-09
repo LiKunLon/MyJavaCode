@@ -12,4 +12,5 @@
         System.out.println("你的信息如下:");
         System.out.println("姓名:"+name+",年龄:"+age+",工资:"+salary);
         input.close();
+//要记得用完Scanner,要close
     }
