@@ -1,4 +1,4 @@
-//输出乘法口诀表(n由用户输入)
+//输出乘法口诀表(n从键盘输入)
     public static void main(String[] args) {
         System.out.println("输入n决定几行几列:");
         Scanner sc=new Scanner(System.in);
