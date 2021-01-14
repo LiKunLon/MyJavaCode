@@ -17,8 +17,9 @@
         }
         //反转
         ListNode cur=slow.next;
-        ListNode curNext=cur.next;
+       
         while(cur!=null){
+            ListNode curNext=cur.next;
             cur.next=slow;
             slow=cur;
             cur=curNext;
