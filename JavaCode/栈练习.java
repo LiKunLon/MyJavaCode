@@ -1,0 +1,19 @@
+Stack<Integer> stack=new Stack<>();
+        //添加元素
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        //peek访问栈顶元素
+        System.out.println(stack.peek());//4
+        //pop抛出栈顶元素->删除
+        System.out.println(stack.pop());//4
+        System.out.println(stack.pop());//3
+        System.out.println(stack.pop());//2
+        System.out.println(stack.pop());//1
+        //判空,返回值boolean
+        System.out.println(stack.empty());
+        //继承了vector,可以调用他的方法,返回值boolean
+        System.out.println(stack.isEmpty());
+        //空栈抛出元素,会发生空栈异常
+        System.out.println(stack.pop());
