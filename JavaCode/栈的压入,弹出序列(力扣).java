@@ -1,3 +1,4 @@
+练习
 Stack<Integer> stack=new Stack<>();
         int index=0;
         for(int val:pushed){
