@@ -9,7 +9,6 @@ class Solution {
                 char b=stones.charAt(j);
                 if(a==b){
                     count++;
-                    
                     //找到一个,计数器加一,开始下一个jewel
                 }
             }
