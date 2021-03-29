@@ -5,7 +5,7 @@
         int[] arr2=new int[arr1.length];
         for(int i=0;i<arr1.length;i++){
             int num=arr1[i];
-            stack.push(num);
+            stack.push(num); 
         }
         for (int x:arr2) {
             x=stack.pop();
