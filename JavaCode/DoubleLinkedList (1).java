@@ -1,11 +1,5 @@
-/**
- * Created with IntelliJ IDEA.
- * Description:
- * User: GaoBo
- * Date: 2021-01-07
- * Time: 19:31
- */
-class ListNode {
+
+class ListNode { 
     public int val;
     public ListNode next;
     public ListNode prev;
