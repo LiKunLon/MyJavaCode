@@ -6,7 +6,7 @@ class BTnode{
     public BTnode left;
     public BTnode right;
     public BTnode(char val){
-        this.val=val;
+        this.val=val; 
     }
     public BTnode(){
     }
