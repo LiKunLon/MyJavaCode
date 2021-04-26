@@ -33,7 +33,6 @@ public class Main{
                         days+=28;
                          break;
                     }
-                   
             }
         }
         //加上当前月份已经过去的天数
