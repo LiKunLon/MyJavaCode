@@ -1,3 +1,4 @@
+纪念一下力扣上完成的第一个困难题
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode res=null;
