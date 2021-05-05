@@ -28,16 +28,17 @@
             //让cur也移动着
             cur=cur.next;
         }
-        if(bs==null){
-            return as;
-        }
-        //将前后两部分进行头尾相连,成为一个链表
-        be.next=as;
         /**
          * 有两个小情况
          * ①:最后要返回小数据部分的头,但是如果小数据部分没有数据,就会出错
          * ②:找不到尾结点
          */
+        if(bs==null){
+            return as;
+        }
+        //将前后两部分进行头尾相连,成为一个链表
+        be.next=as;
+        
         //如果头有数据,直接将尾结点的next置空
         if(as!=null){
             ae.next=null;
