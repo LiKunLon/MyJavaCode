@@ -5,7 +5,6 @@ public class Main{
         Scanner scanner=new Scanner(System.in);
         String str1=scanner.nextLine();
         String str2=scanner.nextLine();
-        
         String longer="";
         String shorter="";
         if(str1.length()>str2.length()){
