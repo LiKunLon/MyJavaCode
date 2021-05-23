@@ -1,20 +1,17 @@
-import java.util.ArrayList;
-public class Solution {
-    public ArrayList<Integer> FindNumbersWithSum(int [] array,int sum) {
-        ArrayList<Integer> list=new ArrayList<>();
-        int left=0;
-        int right=array.length-1;
-        while(left<right){
-            if(array[left]+array[right]==sum){
-                list.add(array[left]);
-                list.add(array[right]);
-                break;
-            }else if(array[left]+array[right]>sum){
-                right--;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int i=0;
+        int j=nums.length-1;
+        while(i<j){
+            if(nums[i]+nums[j]>target){
+                j--;
+            }else if(nums[i]+nums[j]<target){
+                i++;
             }else{
-                left++;
+                return new int[]{nums[i],nums[j]};
             }
         }
-        return list;
+        return new int[0];
+
     }
 }
